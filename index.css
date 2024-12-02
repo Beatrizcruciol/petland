@@ -81,6 +81,14 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.botao3{
+  gap: 50px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .c1 {
   background-color: #ffe600;
   padding: 10px;
@@ -132,6 +140,8 @@
   text-align: center;
   margin: 20px;
   font-family: "Rammetto One";
+  width: 100%;
+  font-size: 20px;
 }
 .produto {
   display: flex;
@@ -147,13 +157,14 @@
   padding: 30px;
   border-radius: 10px;
 }
-p {
+.botao2{
   margin-top: 50px;
   background-color: #ffe600;
   padding: 10px;
-  width: fit-content;
+ 
   border-radius: 20px;
-  text-align: center;
+  align-items: center;
+  border-style: none;
 }
 .f1 {
   height: 300px;
